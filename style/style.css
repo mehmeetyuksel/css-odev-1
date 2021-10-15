@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-color: #D4ECDD;
+}
+ul {
+    margin-top: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #112031;
+    font-size: 1.6rem;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+a:hover {
+    color:#325288
+}
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+header  {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: #112031 solid 3px;
+}
+
+header h1 {
+    color: #112031;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.flex-icerik {
+    display: flex;
+    flex-wrap:wrap;  
+
+    justify-content:start;
+    margin-top: 10px;
+    text-align: center;
+}
+.flex-icerik img {
+    width: 400px;
+    height: 450px;
+}
+
+.icerik{
+    margin: 20px auto;
+    transition: all 1s;
+}
+
+.icerik:hover {
+    transform: scale(1.05);
+}
+
+.icerik h4 {
+    color: #345B63;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.bindirim {
+    text-decoration: line-through;
+    text-decoration-color:#112031;
+    font-size: 1rem;
+}
+.indirim {
+    font-size: 1.5rem;
+}
+
+#hakkimizda {
+    width: 1140px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+address {
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 1160px) {
+    .flex-icerik {
+        flex-direction: column;
+        
+    }
+
+    .icerik {
+        width: 100%;
+        border-bottom: #112031 solid 3px;
+        margin-bottom: 15px;
+    }
+  }
